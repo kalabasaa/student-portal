@@ -64,43 +64,6 @@ https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 | GET    | `/students/{id}` | `StudentController@show`  | View a single student |
 | POST   | `/students`      | `StudentController@store` | Store a new student   |
 
----
-
-## Project Structure
-
-```text
-student-portal/
-│
-├── app/
-│   ├── Http/
-│   │   └── Controllers/
-│   │       └── StudentController.php
-│   │
-│   └── Models/
-│       └── Student.php
-│
-├── database/
-│   ├── migrations/
-│   │   └── create_students_table.php
-│   │
-│   └── database.sqlite
-│
-├── resources/
-│   └── views/
-│       │ 
-│       ├──  Layouts/
-│       │    └── app.blade.php
-│       │ 
-│       └──  Students/
-│            └── index.blade.php
-│
-├── routes/
-│   └── web.php
-│
-└── README.md
-```
-
-
 
 ---
 
