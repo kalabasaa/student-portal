@@ -37,8 +37,6 @@ The current implementation allows student records to be viewed and added through
 https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 
 
-
-
 ---
 
 ## Database Schema
@@ -53,17 +51,6 @@ https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 | `email`      | VARCHAR   | Required, Unique  |
 | `age`        | INTEGER   | Required          |
 | `created_at` | TIMESTAMP | Laravel Timestamp |
-
----
-
-## Routes
-
-| Method | Route            | Controller                | Purpose               |
-| ------ | ---------------- | ------------------------- | --------------------- |
-| GET    | `/students`      | `StudentController@index` | List all students     |
-| GET    | `/students/{id}` | `StudentController@show`  | View a single student |
-| POST   | `/students`      | `StudentController@store` | Store a new student   |
-
 
 ---
 
