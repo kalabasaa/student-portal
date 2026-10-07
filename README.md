@@ -13,7 +13,6 @@ A simple academic project focused on implementing **MVC architecture, database i
 ![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
 
 </div>
-
 ---
 
 ## About
@@ -24,14 +23,11 @@ The project focuses on understanding how the different components of a Laravel a
 
 The current implementation allows student records to be viewed and added through the application.
 
-
 ---
 
 ## Screenshot
 
-
 ![Student List](screenshot/image.png)
-
 
 ## Video Demonstration
 https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
