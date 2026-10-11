@@ -32,7 +32,6 @@ The current implementation allows student records to be viewed and added through
 ## Video Demonstration
 https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 
-
 ---
 
 ## Database Schema
@@ -49,7 +48,6 @@ https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 | `created_at` | TIMESTAMP | Laravel Timestamp |
 
 ---
-
 
 ## Developer
 
