@@ -1,51 +1,73 @@
+# SIMS
+
+### Student Information Management System
+
+A Laravel-based student management system focused on CRUD operations, data validation, MySQL database integration, and Google reCAPTCHA.
+
+**A Laboratory Examination Requirement for Systems Integration and Architecture (SIA1)**
+
 <div align="center">
 
-# Student Portal
-
-### A Laravel-based student management system built for Systems Integration and Architecture
-
-A simple academic project focused on implementing **MVC architecture, database integration, routing, controllers, models, migrations, and Blade views** using Laravel.
-
-<br>
-
-![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Google reCAPTCHA](https://img.shields.io/badge/Google-reCAPTCHA-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 </div>
+
 ---
 
 ## About
 
-**Student Portal** is a simple student management application created as part of **Systems Integration and Architecture (SIA)**.
+**SIMS (Student Information Management System)** is a Laravel-based academic project developed to demonstrate CRUD (Create, Read, Update, Delete) operations in a web application.
 
-The project focuses on understanding how the different components of a Laravel application work together, from database migrations and Eloquent models to controllers, routes, and Blade views.
+The system allows users to manage student information, including student numbers, full names, courses, and email addresses. It also integrates Google reCAPTCHA into the Create Student form to help prevent automated submissions.
 
-The current implementation allows student records to be viewed and added through the application.
+This project demonstrates database integration, form validation, and basic web application security using Laravel and MySQL.
 
 ---
 
-## Screenshot
+## Technologies Used
 
-![Student List](screenshot/image.png)
+![Laravel](https://img.shields.io/badge/Laravel-PHP_Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-Server_Side-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Blade](https://img.shields.io/badge/Blade-Template_Engine-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Google reCAPTCHA](https://img.shields.io/badge/Google-reCAPTCHA-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+---
+
+## Screenshots
+
+### Student List
+
+![Student List](screenshot/list-student.png)
+
+### Add Student
+
+![Add Student](screenshot/add-student.png)
+
+### Edit Student
+
+![Edit Student](screenshot/edit-student.png)
+
+### Delete Student
+
+![Edit Student](screenshot/delete-student.png)
+
+### Google reCAPTCHA
+
+![Google reCAPTCHA](screenshot/recaptcha.png)
+
+---
 
 ## Video Demonstration
-https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 
----
+Watch the video demonstration of SIMS to see its student management features, CRUD operations, and Google reCAPTCHA integration.
 
-## Database Schema
-
-### `students`
-
-| Column       | Type      | Constraints       |
-| ------------ | --------- | ----------------- |
-| `id`         | BIGINT    | Primary Key       |
-| `firstname`  | VARCHAR   | Required          |
-| `lastname`   | VARCHAR   | Required          |
-| `email`      | VARCHAR   | Required, Unique  |
-| `age`        | INTEGER   | Required          |
-| `created_at` | TIMESTAMP | Laravel Timestamp |
+[**Watch the Video Demonstration on Google Drive**](https://drive.google.com/drive/folders/1wJYrlWybrqQDL647-JbCKd-fUggDhtJ5?usp=drive_link)
 
 ---
 
@@ -53,7 +75,7 @@ https://github.com/user-attachments/assets/457d47bd-1841-451d-b9f1-6a595e1d4b1e
 
 **Jhon Renier Tambogon**
 
-BSIT Student
+BSIT Student  
 University of Eastern Pangasinan
 
-Built for **Systems Integration and Architecture.
+Built for **Systems Integration and Architecture (SIA1)**.
