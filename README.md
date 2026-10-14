@@ -1,3 +1,5 @@
+<div align="center">
+
 # SIMS
 
 ### Student Information Management System
@@ -6,7 +8,7 @@ A Laravel-based student management system focused on CRUD operations, data valid
 
 **A Laboratory Examination Requirement for Systems Integration and Architecture (SIA1)**
 
-<div align="center">
+
 
 ![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
