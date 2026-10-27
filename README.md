@@ -13,7 +13,6 @@ A simple academic project focused on implementing **MVC architecture, database i
 ![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
 
 </div>
----
 
 ## About
 
